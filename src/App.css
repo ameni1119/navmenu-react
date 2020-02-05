@@ -1,0 +1,42 @@
+.dropdown{
+ list-style: none;
+ padding: 2em 2em 0em 2em;
+ font-size: 20px;
+ font-weight: 800;
+ position: relative;
+}
+ .dropdowne{
+   list-style: none;
+   display: none;
+   padding-left:  1em;
+   padding-right: 1em;
+   padding-top: 1em;
+   padding-bottom: 1em;
+   color: coral;
+   flex-direction: column;
+   position: absolute;
+   width: 300px;
+   border: 1em solid rosybrown;
+   padding: 1em;
+
+
+ }
+ a {
+  text-decoration: none;
+  color: coral;
+  
+ }
+ .navigateur {
+  display: flex;
+  border-bottom: 1px solid red;
+  width: 467px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.dropdown:hover .dropdowne{
+  display: block;
+}
+ul :hover a{
+  color: blueviolet;
+}
